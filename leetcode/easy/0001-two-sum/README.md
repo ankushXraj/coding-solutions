@@ -53,30 +53,32 @@ Output: [0,1]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 3 ms (beats 58.64%)  
-**Memory:** 46.5 MB (beats 95.89%)  
-**Submitted:** 2026-08-05T11:15:49.906Z  
+**Runtime:** 2 ms (beats 99.34%)  
+**Memory:** 47.3 MB (beats 11.21%)  
+**Submitted:** 2026-08-11T10:32:14.565Z  
 
 ```java
-import java.util.*;
+import java.util.HashMap;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+
         HashMap<Integer, Integer> map = new HashMap<>();
-        
+
         for (int i = 0; i < nums.length; i++) {
-            int need = target - nums[i];
-            
-            if (map.containsKey(need)) {
-                return new int[]{map.get(need), i};
+
+            int complement = target - nums[i];
+
+            if (map.containsKey(complement)) {
+                return new int[]{map.get(complement), i};
             }
-            
+
             map.put(nums[i], i);
         }
-        return new int[]{-1, -1}; //completed .xx
+
+        return new int[]{};
     }
 }
-
 ```
 
 ---
