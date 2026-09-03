@@ -39,8 +39,8 @@ Explanation: 'e' must have been pressed twice, but it was not in the typed outpu
 
 **Language:** Java  
 **Runtime:** 1 ms (beats 85.91%)  
-**Memory:** 43.1 MB (beats 6.49%)  
-**Submitted:** 2026-09-03T05:10:53.237Z  
+**Memory:** 42.9 MB (beats 56.41%)  
+**Submitted:** 2026-09-03T05:11:03.515Z  
 
 ```java
 class Solution {
