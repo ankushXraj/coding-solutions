@@ -45,8 +45,8 @@ recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002], range is [2,3002]
 
 **Language:** Java  
 **Runtime:** 22 ms (beats 51.46%)  
-**Memory:** 59.2 MB (beats 66.00%)  
-**Submitted:** 2026-10-27T10:52:47.968Z  
+**Memory:** 58.9 MB (beats 71.07%)  
+**Submitted:** 2026-10-27T10:53:28.647Z  
 
 ```java
 class RecentCounter {
